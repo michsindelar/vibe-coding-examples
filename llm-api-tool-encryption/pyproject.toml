@@ -1,0 +1,11 @@
+[project]
+name = "llm-api-tool-encryption"
+version = "0.1.0"
+description = "OpenAI tools example with asymmetric encryption and decryption"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "cryptography>=45.0.0",
+    "openai>=1.66.3",
+    "python-dotenv>=1.0.1",
+]
