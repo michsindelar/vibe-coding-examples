@@ -157,25 +157,31 @@ def get_completion_from_messages(messages, model="gpt-4.1-mini"):
             )
 
 
-messages = [
-    {
-        "role": "system",
-        "content": (
-            "You are a helpful AI assistant. Use tools when the user asks to encrypt "
-            "or decrypt content."
-        ),
-    },
-    {
-        "role": "user",
-        "content": (
-            "Encrypt the text 'Meet me at the west gate at 7 PM.' and then decrypt the "
-            "encrypted result so I can verify the round trip."
-        ),
-    },
-]
+def main():
+    user_question = input("Enter your question: ").strip()
+    if not user_question:
+        raise ValueError("A question is required.")
 
-response = get_completion_from_messages(messages)
-print("--- Full response: ---")
-pprint(response)
-print("--- Response text: ---")
-print(response.content)
+    messages = [
+        {
+            "role": "system",
+            "content": (
+                "You are a helpful AI assistant. Use tools when the user asks to "
+                "encrypt or decrypt content."
+            ),
+        },
+        {
+            "role": "user",
+            "content": user_question,
+        },
+    ]
+
+    response = get_completion_from_messages(messages)
+    print("--- Full response: ---")
+    pprint(response)
+    print("--- Response text: ---")
+    print(response.content)
+
+
+if __name__ == "__main__":
+    main()
