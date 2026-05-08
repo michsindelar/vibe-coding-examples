@@ -1,0 +1,29 @@
+{
+  "name": "sitegen-agent",
+  "version": "0.1.0",
+  "description": "A multi-agent CLI for brand identity creation and static website generation.",
+  "type": "module",
+  "bin": {
+    "sitegen": "./src/main.ts"
+  },
+  "scripts": {
+    "start": "node src/main.ts",
+    "dev": "node --watch src/main.ts",
+    "check": "node --check src/main.ts",
+    "clean": "node src/main.ts --clean"
+  },
+  "engines": {
+    "node": ">=23.6"
+  },
+  "dependencies": {
+    "@openai/agents": "^0.10.1",
+    "chalk": "^5.6.2",
+    "openai": "^4.103.0",
+    "ora": "^9.4.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "typescript": "^5.8.3"
+  }
+}
