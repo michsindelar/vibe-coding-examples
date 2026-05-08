@@ -1,0 +1,14 @@
+personality = "pragmatic"
+approval_policy = "never"
+sandbox_mode = "danger-full-access"
+
+[features]
+multi_agent = true
+
+[mcp_servers.browser]
+command = "npx"
+args = ["-y", "@modelcontextprotocol/server-puppeteer"]
+
+[mcp_servers.fetch]
+command = "npx"
+args = ["-y", "mcp-server-fetch-typescript"]
