@@ -2,7 +2,7 @@
 
 A Codex project configuration for auditing websites with specialist agents for SEO, web security, and accessibility.
 
-This repository is intended to be used as a public, reusable starter for running focused website reviews in Codex. It provides project-scoped custom agents, local skills, MCP server configuration, and `AGENTS.md` guidance so Codex has a consistent audit playbook whenever it is launched from this directory.
+This repository is intended to be used as a public, reusable starter for running focused website reviews in Codex. It provides project-scoped custom agents, local skills, MCP server configuration, and `.codex/AGENTS.md` guidance so Codex has a consistent audit playbook whenever it is launched from this directory.
 
 ## What This Project Does
 
@@ -101,9 +101,9 @@ Audits DOM-level accessibility signals using WCAG-oriented categories such as pe
 
 ```text
 .
-├── AGENTS.md
 ├── README.md
 └── .codex/
+    ├── AGENTS.md
     ├── config.toml
     ├── agents/
     │   ├── accessibility.toml
@@ -152,4 +152,4 @@ Contributions are welcome. Useful improvements include:
 - Sample audit prompts
 - Documentation improvements
 
-Keep changes focused and update `AGENTS.md` and this README when agent behavior, skills, setup, or recommended usage changes.
+Keep changes focused and update `.codex/AGENTS.md` and this README when agent behavior, skills, setup, or recommended usage changes.
