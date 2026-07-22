@@ -1,0 +1,855 @@
+[
+  {
+    "id": "factual-001",
+    "category": "factual",
+    "query": "What is the capital of Australia?",
+    "expected": "Canberra",
+    "rephrased": "Name the capital city of Australia.",
+    "acceptable": [
+      "The capital city of Australia is **Canberra**."
+    ]
+  },
+  {
+    "id": "factual-002",
+    "category": "factual",
+    "query": "What is the capital of France?",
+    "expected": "Paris",
+    "rephrased": "Name the capital city of France.",
+    "acceptable": [
+      "The capital of France is **Paris**.",
+      "The capital city of France is **Paris**."
+    ]
+  },
+  {
+    "id": "factual-003",
+    "category": "factual",
+    "query": "What is the capital of Japan?",
+    "expected": "Tokyo",
+    "rephrased": "Name the capital city of Japan.",
+    "acceptable": [
+      "The capital of Japan is **Tokyo**.",
+      "The capital city of Japan is **Tokyo**."
+    ]
+  },
+  {
+    "id": "factual-004",
+    "category": "factual",
+    "query": "What is the capital of Canada?",
+    "expected": "Ottawa",
+    "rephrased": "Name the capital city of Canada.",
+    "acceptable": [
+      "The capital of Canada is **Ottawa**.\n\nIt was officially designated as the capital in 1857 and has been the seat of Canada's government since the country's formation.",
+      "The capital of Canada is **Ottawa**.",
+      "The capital city of Canada is **Ottawa**."
+    ]
+  },
+  {
+    "id": "factual-005",
+    "category": "factual",
+    "query": "What is the capital of Brazil?",
+    "expected": "Brasilia",
+    "rephrased": "Name the capital city of Brazil.",
+    "acceptable": [
+      "The capital of Brazil is **Brasília**.",
+      "The capital city of Brazil is **Brasília**.",
+      "Brasília",
+      "The capital of Brazil is the city where the country's central government operates. Brazil is located in South America, and its capital was moved from Rio de Janeiro to a new planned city called Brasília in the mid-20th century for reasons of national development and strategic balance. Brasília was officially inaugurated as the capital in 1960 and has been the seat of government since then.\n\nFinal answer: Brasília",
+      "Let's think step by step.\n\nBrazil is a country located in South America, and it has a capital city that serves as the administrative center for the federal government. I recall that Brasília was designated as the capital in 1960, replacing Rio de Janeiro as the temporary capital. The city was purposefully planned and constructed to accommodate the government, with key institutions like the President's office, Congress, and Supreme Court located there. This makes Brasília the official capital.\n\nFinal answer: Brasília"
+    ]
+  },
+  {
+    "id": "factual-006",
+    "category": "factual",
+    "query": "What is the capital of Egypt?",
+    "expected": "Cairo",
+    "rephrased": "Name the capital city of Egypt."
+  },
+  {
+    "id": "factual-007",
+    "category": "factual",
+    "query": "What is the capital of Norway?",
+    "expected": "Oslo",
+    "rephrased": "Name the capital city of Norway."
+  },
+  {
+    "id": "factual-008",
+    "category": "factual",
+    "query": "What is the capital of Kenya?",
+    "expected": "Nairobi",
+    "rephrased": "Name the capital city of Kenya."
+  },
+  {
+    "id": "factual-009",
+    "category": "factual",
+    "query": "What is the capital of Greece?",
+    "expected": "Athens",
+    "rephrased": "Name the capital city of Greece."
+  },
+  {
+    "id": "factual-010",
+    "category": "factual",
+    "query": "What is the capital of Portugal?",
+    "expected": "Lisbon",
+    "rephrased": "Name the capital city of Portugal."
+  },
+  {
+    "id": "factual-011",
+    "category": "factual",
+    "query": "What is the capital of Turkey?",
+    "expected": "Ankara",
+    "rephrased": "Name the capital city of Turkey."
+  },
+  {
+    "id": "factual-012",
+    "category": "factual",
+    "query": "What is the capital of Spain?",
+    "expected": "Madrid",
+    "rephrased": "Name the capital city of Spain."
+  },
+  {
+    "id": "factual-013",
+    "category": "factual",
+    "query": "What is the capital of Russia?",
+    "expected": "Moscow",
+    "rephrased": "Name the capital city of Russia."
+  },
+  {
+    "id": "factual-014",
+    "category": "factual",
+    "query": "What is the capital of India?",
+    "expected": "New Delhi",
+    "rephrased": "Name the capital city of India."
+  },
+  {
+    "id": "factual-015",
+    "category": "factual",
+    "query": "What is the capital of China?",
+    "expected": "Beijing",
+    "rephrased": "Name the capital city of China."
+  },
+  {
+    "id": "factual-016",
+    "category": "factual",
+    "query": "What is the capital of Italy?",
+    "expected": "Rome",
+    "rephrased": "Name the capital city of Italy."
+  },
+  {
+    "id": "factual-017",
+    "category": "factual",
+    "query": "What is the capital of Germany?",
+    "expected": "Berlin",
+    "rephrased": "Name the capital city of Germany."
+  },
+  {
+    "id": "factual-018",
+    "category": "factual",
+    "query": "What is the capital of Poland?",
+    "expected": "Warsaw",
+    "rephrased": "Name the capital city of Poland."
+  },
+  {
+    "id": "factual-019",
+    "category": "factual",
+    "query": "What is the capital of Sweden?",
+    "expected": "Stockholm",
+    "rephrased": "Name the capital city of Sweden."
+  },
+  {
+    "id": "factual-020",
+    "category": "factual",
+    "query": "What is the capital of Ireland?",
+    "expected": "Dublin",
+    "rephrased": "Name the capital city of Ireland."
+  },
+  {
+    "id": "factual-021",
+    "category": "factual",
+    "query": "What is the capital of Argentina?",
+    "expected": "Buenos Aires",
+    "rephrased": "Name the capital city of Argentina."
+  },
+  {
+    "id": "factual-022",
+    "category": "factual",
+    "query": "What is the capital of Thailand?",
+    "expected": "Bangkok",
+    "rephrased": "Name the capital city of Thailand."
+  },
+  {
+    "id": "factual-023",
+    "category": "factual",
+    "query": "What is the capital of Vietnam?",
+    "expected": "Hanoi",
+    "rephrased": "Name the capital city of Vietnam."
+  },
+  {
+    "id": "factual-024",
+    "category": "factual",
+    "query": "What is the capital of Mexico?",
+    "expected": "Mexico City",
+    "rephrased": "Name the capital city of Mexico."
+  },
+  {
+    "id": "factual-025",
+    "category": "factual",
+    "query": "What is the capital of Austria?",
+    "expected": "Vienna",
+    "rephrased": "Name the capital city of Austria."
+  },
+  {
+    "id": "factual-026",
+    "category": "factual",
+    "query": "What is the chemical symbol for gold?",
+    "expected": "Au",
+    "rephrased": "Give the periodic-table symbol for gold."
+  },
+  {
+    "id": "factual-027",
+    "category": "factual",
+    "query": "What is the chemical symbol for silver?",
+    "expected": "Ag",
+    "rephrased": "Give the periodic-table symbol for silver."
+  },
+  {
+    "id": "factual-028",
+    "category": "factual",
+    "query": "What is the chemical symbol for iron?",
+    "expected": "Fe",
+    "rephrased": "Give the periodic-table symbol for iron."
+  },
+  {
+    "id": "factual-029",
+    "category": "factual",
+    "query": "What is the chemical symbol for oxygen?",
+    "expected": "O",
+    "rephrased": "Give the periodic-table symbol for oxygen."
+  },
+  {
+    "id": "factual-030",
+    "category": "factual",
+    "query": "What is the chemical symbol for hydrogen?",
+    "expected": "H",
+    "rephrased": "Give the periodic-table symbol for hydrogen."
+  },
+  {
+    "id": "factual-031",
+    "category": "factual",
+    "query": "What is the chemical symbol for carbon?",
+    "expected": "C",
+    "rephrased": "Give the periodic-table symbol for carbon."
+  },
+  {
+    "id": "factual-032",
+    "category": "factual",
+    "query": "What is the chemical symbol for sodium?",
+    "expected": "Na",
+    "rephrased": "Give the periodic-table symbol for sodium."
+  },
+  {
+    "id": "factual-033",
+    "category": "factual",
+    "query": "What is the chemical symbol for potassium?",
+    "expected": "K",
+    "rephrased": "Give the periodic-table symbol for potassium."
+  },
+  {
+    "id": "factual-034",
+    "category": "factual",
+    "query": "What is the chemical symbol for helium?",
+    "expected": "He",
+    "rephrased": "Give the periodic-table symbol for helium."
+  },
+  {
+    "id": "factual-035",
+    "category": "factual",
+    "query": "What is the chemical symbol for nitrogen?",
+    "expected": "N",
+    "rephrased": "Give the periodic-table symbol for nitrogen."
+  },
+  {
+    "id": "factual-036",
+    "category": "factual",
+    "query": "What is the chemical symbol for copper?",
+    "expected": "Cu",
+    "rephrased": "Give the periodic-table symbol for copper."
+  },
+  {
+    "id": "factual-037",
+    "category": "factual",
+    "query": "What is the chemical symbol for lead?",
+    "expected": "Pb",
+    "rephrased": "Give the periodic-table symbol for lead."
+  },
+  {
+    "id": "factual-038",
+    "category": "factual",
+    "query": "What is the chemical symbol for zinc?",
+    "expected": "Zn",
+    "rephrased": "Give the periodic-table symbol for zinc."
+  },
+  {
+    "id": "factual-039",
+    "category": "factual",
+    "query": "What is the chemical symbol for tin?",
+    "expected": "Sn",
+    "rephrased": "Give the periodic-table symbol for tin."
+  },
+  {
+    "id": "factual-040",
+    "category": "factual",
+    "query": "What is the chemical symbol for mercury?",
+    "expected": "Hg",
+    "rephrased": "Give the periodic-table symbol for mercury."
+  },
+  {
+    "id": "factual-041",
+    "category": "factual",
+    "query": "What is the chemical symbol for calcium?",
+    "expected": "Ca",
+    "rephrased": "Give the periodic-table symbol for calcium."
+  },
+  {
+    "id": "factual-042",
+    "category": "factual",
+    "query": "What is the chemical symbol for chlorine?",
+    "expected": "Cl",
+    "rephrased": "Give the periodic-table symbol for chlorine."
+  },
+  {
+    "id": "factual-043",
+    "category": "factual",
+    "query": "What is the chemical symbol for sulfur?",
+    "expected": "S",
+    "rephrased": "Give the periodic-table symbol for sulfur."
+  },
+  {
+    "id": "factual-044",
+    "category": "factual",
+    "query": "What is the chemical symbol for neon?",
+    "expected": "Ne",
+    "rephrased": "Give the periodic-table symbol for neon."
+  },
+  {
+    "id": "factual-045",
+    "category": "factual",
+    "query": "What is the chemical symbol for uranium?",
+    "expected": "U",
+    "rephrased": "Give the periodic-table symbol for uranium."
+  },
+  {
+    "id": "factual-046",
+    "category": "factual",
+    "query": "Who wrote the book Romeo and Juliet?",
+    "expected": "William Shakespeare",
+    "rephrased": "Which author wrote Romeo and Juliet?",
+    "acceptable": [
+      "Shakespeare"
+    ]
+  },
+  {
+    "id": "factual-047",
+    "category": "factual",
+    "query": "Who wrote the book Pride and Prejudice?",
+    "expected": "Jane Austen",
+    "rephrased": "Which author wrote Pride and Prejudice?",
+    "acceptable": [
+      "Austen"
+    ]
+  },
+  {
+    "id": "factual-048",
+    "category": "factual",
+    "query": "Who wrote the book 1984?",
+    "expected": "George Orwell",
+    "rephrased": "Which author wrote 1984?",
+    "acceptable": [
+      "Orwell"
+    ]
+  },
+  {
+    "id": "factual-049",
+    "category": "factual",
+    "query": "Who wrote the book War and Peace?",
+    "expected": "Leo Tolstoy",
+    "rephrased": "Which author wrote War and Peace?",
+    "acceptable": [
+      "Tolstoy"
+    ]
+  },
+  {
+    "id": "factual-050",
+    "category": "factual",
+    "query": "Who wrote the book The Odyssey?",
+    "expected": "Homer",
+    "rephrased": "Which author wrote The Odyssey?"
+  },
+  {
+    "id": "factual-051",
+    "category": "factual",
+    "query": "Who wrote the book Hamlet?",
+    "expected": "William Shakespeare",
+    "rephrased": "Which author wrote Hamlet?",
+    "acceptable": [
+      "Shakespeare"
+    ]
+  },
+  {
+    "id": "factual-052",
+    "category": "factual",
+    "query": "Who wrote the book Don Quixote?",
+    "expected": "Miguel de Cervantes",
+    "rephrased": "Which author wrote Don Quixote?",
+    "acceptable": [
+      "Cervantes"
+    ]
+  },
+  {
+    "id": "factual-053",
+    "category": "factual",
+    "query": "Who wrote the book The Great Gatsby?",
+    "expected": "F. Scott Fitzgerald",
+    "rephrased": "Which author wrote The Great Gatsby?",
+    "acceptable": [
+      "Fitzgerald"
+    ]
+  },
+  {
+    "id": "factual-054",
+    "category": "factual",
+    "query": "Who wrote the book Crime and Punishment?",
+    "expected": "Fyodor Dostoevsky",
+    "rephrased": "Which author wrote Crime and Punishment?",
+    "acceptable": [
+      "Dostoevsky"
+    ]
+  },
+  {
+    "id": "factual-055",
+    "category": "factual",
+    "query": "Who wrote the book Moby-Dick?",
+    "expected": "Herman Melville",
+    "rephrased": "Which author wrote Moby-Dick?",
+    "acceptable": [
+      "Melville"
+    ]
+  },
+  {
+    "id": "factual-056",
+    "category": "factual",
+    "query": "Who wrote the book The Divine Comedy?",
+    "expected": "Dante Alighieri",
+    "rephrased": "Which author wrote The Divine Comedy?",
+    "acceptable": [
+      "Dante"
+    ]
+  },
+  {
+    "id": "factual-057",
+    "category": "factual",
+    "query": "Who wrote the book Frankenstein?",
+    "expected": "Mary Shelley",
+    "rephrased": "Which author wrote Frankenstein?",
+    "acceptable": [
+      "Shelley"
+    ]
+  },
+  {
+    "id": "factual-058",
+    "category": "factual",
+    "query": "Who wrote the book The Hobbit?",
+    "expected": "J.R.R. Tolkien",
+    "rephrased": "Which author wrote The Hobbit?",
+    "acceptable": [
+      "Tolkien"
+    ]
+  },
+  {
+    "id": "factual-059",
+    "category": "factual",
+    "query": "Who wrote the book Great Expectations?",
+    "expected": "Charles Dickens",
+    "rephrased": "Which author wrote Great Expectations?",
+    "acceptable": [
+      "Dickens"
+    ]
+  },
+  {
+    "id": "factual-060",
+    "category": "factual",
+    "query": "Who wrote the book The Old Man and the Sea?",
+    "expected": "Ernest Hemingway",
+    "rephrased": "Which author wrote The Old Man and the Sea?",
+    "acceptable": [
+      "Hemingway"
+    ]
+  },
+  {
+    "id": "factual-061",
+    "category": "factual",
+    "query": "What is the largest planet in our solar system?",
+    "expected": "Jupiter",
+    "rephrased": "What is the largest planet in our solar system?",
+    "acceptable": [
+      "the planet Jupiter"
+    ]
+  },
+  {
+    "id": "factual-062",
+    "category": "factual",
+    "query": "What is the closest planet to the Sun?",
+    "expected": "Mercury",
+    "rephrased": "What is the closest planet to the Sun?"
+  },
+  {
+    "id": "factual-063",
+    "category": "factual",
+    "query": "What planet is known as the Red Planet?",
+    "expected": "Mars",
+    "rephrased": "What planet is known as the Red Planet?"
+  },
+  {
+    "id": "factual-064",
+    "category": "factual",
+    "query": "What gas do plants absorb from the atmosphere for photosynthesis?",
+    "expected": "Carbon dioxide",
+    "rephrased": "What gas do plants absorb from the atmosphere for photosynthesis?",
+    "acceptable": [
+      "CO2"
+    ]
+  },
+  {
+    "id": "factual-065",
+    "category": "factual",
+    "query": "What is the powerhouse of the cell?",
+    "expected": "Mitochondria",
+    "rephrased": "What is the powerhouse of the cell?",
+    "acceptable": [
+      "the mitochondria"
+    ]
+  },
+  {
+    "id": "factual-066",
+    "category": "factual",
+    "query": "What is the hardest natural substance on Earth?",
+    "expected": "Diamond",
+    "rephrased": "What is the hardest natural substance on Earth?"
+  },
+  {
+    "id": "factual-067",
+    "category": "factual",
+    "query": "How many bones are in the adult human body?",
+    "expected": "206",
+    "rephrased": "How many bones are in the adult human body?",
+    "acceptable": [
+      "two hundred six"
+    ]
+  },
+  {
+    "id": "factual-068",
+    "category": "factual",
+    "query": "What is the largest ocean on Earth?",
+    "expected": "Pacific Ocean",
+    "rephrased": "What is the largest ocean on Earth?",
+    "acceptable": [
+      "the Pacific"
+    ]
+  },
+  {
+    "id": "factual-069",
+    "category": "factual",
+    "query": "What is the tallest mountain on Earth above sea level?",
+    "expected": "Mount Everest",
+    "rephrased": "What is the tallest mountain on Earth above sea level?",
+    "acceptable": [
+      "Everest"
+    ]
+  },
+  {
+    "id": "factual-070",
+    "category": "factual",
+    "query": "What is the longest river in the world?",
+    "expected": "Nile",
+    "rephrased": "What is the longest river in the world?",
+    "acceptable": [
+      "the Nile",
+      "Amazon"
+    ]
+  },
+  {
+    "id": "factual-071",
+    "category": "factual",
+    "query": "What is the speed of light in a vacuum, approximately, in km per second?",
+    "expected": "300000",
+    "rephrased": "What is the speed of light in a vacuum, approximately, in km per second?",
+    "acceptable": [
+      "299792",
+      "300,000"
+    ]
+  },
+  {
+    "id": "factual-072",
+    "category": "factual",
+    "query": "What planet is famous for its prominent ring system?",
+    "expected": "Saturn",
+    "rephrased": "What planet is famous for its prominent ring system?"
+  },
+  {
+    "id": "factual-073",
+    "category": "factual",
+    "query": "What is the chemical formula for water?",
+    "expected": "H2O",
+    "rephrased": "What is the chemical formula for water?"
+  },
+  {
+    "id": "factual-074",
+    "category": "factual",
+    "query": "What organ pumps blood through the human body?",
+    "expected": "Heart",
+    "rephrased": "What organ pumps blood through the human body?",
+    "acceptable": [
+      "the heart"
+    ]
+  },
+  {
+    "id": "factual-075",
+    "category": "factual",
+    "query": "What is the freezing point of water in degrees Celsius?",
+    "expected": "0",
+    "rephrased": "What is the freezing point of water in degrees Celsius?",
+    "acceptable": [
+      "0 degrees",
+      "zero"
+    ]
+  },
+  {
+    "id": "factual-076",
+    "category": "factual",
+    "query": "In what year did World War II end?",
+    "expected": "1945",
+    "rephrased": "In what year did World War II end?"
+  },
+  {
+    "id": "factual-077",
+    "category": "factual",
+    "query": "In what year did World War I begin?",
+    "expected": "1914",
+    "rephrased": "In what year did World War I begin?"
+  },
+  {
+    "id": "factual-078",
+    "category": "factual",
+    "query": "Who was the first President of the United States?",
+    "expected": "George Washington",
+    "rephrased": "Who was the first President of the United States?",
+    "acceptable": [
+      "Washington"
+    ]
+  },
+  {
+    "id": "factual-079",
+    "category": "factual",
+    "query": "Who painted the Mona Lisa?",
+    "expected": "Leonardo da Vinci",
+    "rephrased": "Who painted the Mona Lisa?",
+    "acceptable": [
+      "Leonardo",
+      "da Vinci"
+    ]
+  },
+  {
+    "id": "factual-080",
+    "category": "factual",
+    "query": "Who developed the theory of general relativity?",
+    "expected": "Albert Einstein",
+    "rephrased": "Who developed the theory of general relativity?",
+    "acceptable": [
+      "Einstein"
+    ]
+  },
+  {
+    "id": "factual-081",
+    "category": "factual",
+    "query": "In which year did the first man land on the Moon?",
+    "expected": "1969",
+    "rephrased": "In which year did the first man land on the Moon?"
+  },
+  {
+    "id": "factual-082",
+    "category": "factual",
+    "query": "What ancient civilization built the pyramids of Giza?",
+    "expected": "Egyptians",
+    "rephrased": "What ancient civilization built the pyramids of Giza?",
+    "acceptable": [
+      "ancient Egyptians",
+      "Egypt"
+    ]
+  },
+  {
+    "id": "factual-083",
+    "category": "factual",
+    "query": "Who discovered gravity after, by legend, seeing an apple fall?",
+    "expected": "Isaac Newton",
+    "rephrased": "Who discovered gravity after, by legend, seeing an apple fall?",
+    "acceptable": [
+      "Newton"
+    ]
+  },
+  {
+    "id": "factual-084",
+    "category": "factual",
+    "query": "What wall divided East and West Berlin until 1989?",
+    "expected": "Berlin Wall",
+    "rephrased": "What wall divided East and West Berlin until 1989?",
+    "acceptable": [
+      "the Berlin Wall"
+    ]
+  },
+  {
+    "id": "factual-085",
+    "category": "factual",
+    "query": "Who wrote the Declaration of Independence's primary draft?",
+    "expected": "Thomas Jefferson",
+    "rephrased": "Who wrote the Declaration of Independence's primary draft?",
+    "acceptable": [
+      "Jefferson"
+    ]
+  },
+  {
+    "id": "factual-086",
+    "category": "factual",
+    "query": "What empire was ruled by Julius Caesar?",
+    "expected": "Roman Empire",
+    "rephrased": "What empire was ruled by Julius Caesar?",
+    "acceptable": [
+      "Rome",
+      "the Roman Empire"
+    ]
+  },
+  {
+    "id": "factual-087",
+    "category": "factual",
+    "query": "Which scientist proposed the laws of motion published in 1687?",
+    "expected": "Isaac Newton",
+    "rephrased": "Which scientist proposed the laws of motion published in 1687?",
+    "acceptable": [
+      "Newton"
+    ]
+  },
+  {
+    "id": "factual-088",
+    "category": "factual",
+    "query": "What language has the most native speakers in the world?",
+    "expected": "Mandarin Chinese",
+    "rephrased": "What language has the most native speakers in the world?",
+    "acceptable": [
+      "Mandarin",
+      "Chinese"
+    ]
+  },
+  {
+    "id": "factual-089",
+    "category": "factual",
+    "query": "What is the smallest country in the world by area?",
+    "expected": "Vatican City",
+    "rephrased": "What is the smallest country in the world by area?",
+    "acceptable": [
+      "the Vatican"
+    ]
+  },
+  {
+    "id": "factual-090",
+    "category": "factual",
+    "query": "What currency is used in Japan?",
+    "expected": "Yen",
+    "rephrased": "What currency is used in Japan?",
+    "acceptable": [
+      "Japanese yen",
+      "the yen"
+    ]
+  },
+  {
+    "id": "factual-091",
+    "category": "factual",
+    "query": "What is the largest country in the world by area?",
+    "expected": "Russia",
+    "rephrased": "What is the largest country in the world by area?"
+  },
+  {
+    "id": "factual-092",
+    "category": "factual",
+    "query": "On which continent is the Sahara Desert located?",
+    "expected": "Africa",
+    "rephrased": "On which continent is the Sahara Desert located?"
+  },
+  {
+    "id": "factual-093",
+    "category": "factual",
+    "query": "What is the national language of Brazil?",
+    "expected": "Portuguese",
+    "rephrased": "What is the national language of Brazil?"
+  },
+  {
+    "id": "factual-094",
+    "category": "factual",
+    "query": "Which planet do we live on?",
+    "expected": "Earth",
+    "rephrased": "Which planet do we live on?"
+  },
+  {
+    "id": "factual-095",
+    "category": "factual",
+    "query": "What is the currency of the United Kingdom?",
+    "expected": "Pound sterling",
+    "rephrased": "What is the currency of the United Kingdom?",
+    "acceptable": [
+      "pound",
+      "British pound",
+      "GBP"
+    ]
+  },
+  {
+    "id": "factual-096",
+    "category": "factual",
+    "query": "Who is credited with inventing the telephone?",
+    "expected": "Alexander Graham Bell",
+    "rephrased": "Who is credited with inventing the telephone?",
+    "acceptable": [
+      "Bell"
+    ]
+  },
+  {
+    "id": "factual-097",
+    "category": "factual",
+    "query": "What is the largest mammal in the world?",
+    "expected": "Blue whale",
+    "rephrased": "What is the largest mammal in the world?",
+    "acceptable": [
+      "the blue whale"
+    ]
+  },
+  {
+    "id": "factual-098",
+    "category": "factual",
+    "query": "What metal is liquid at room temperature?",
+    "expected": "Mercury",
+    "rephrased": "What metal is liquid at room temperature?"
+  },
+  {
+    "id": "factual-099",
+    "category": "factual",
+    "query": "What is the study of living organisms called?",
+    "expected": "Biology",
+    "rephrased": "What is the study of living organisms called?"
+  },
+  {
+    "id": "factual-100",
+    "category": "factual",
+    "query": "How many continents are there on Earth?",
+    "expected": "7",
+    "rephrased": "How many continents are there on Earth?",
+    "acceptable": [
+      "seven"
+    ]
+  }
+]

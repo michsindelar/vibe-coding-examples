@@ -1,0 +1,981 @@
+[
+  {
+    "id": "math-001",
+    "category": "math",
+    "query": "What is 17 multiplied by 24?",
+    "expected": "408",
+    "rephrased": "Compute the product of 17 and 24.",
+    "acceptable": [
+      "four hundred eight"
+    ]
+  },
+  {
+    "id": "math-002",
+    "category": "math",
+    "query": "A shirt costs $40 and is discounted by 25%. What is the final price?",
+    "expected": "30",
+    "acceptable": [
+      "$30",
+      "30 dollars",
+      "thirty"
+    ],
+    "rephrased": "A shirt is priced at $40. After applying a 25% discount, what is the price you pay?"
+  },
+  {
+    "id": "math-003",
+    "category": "math",
+    "query": "Tom has 3 boxes with 12 apples each. He gives away 8 apples. How many apples does he have left?",
+    "expected": "28",
+    "rephrased": "Tom starts with 3 boxes, each holding 12 apples. He then gives away 8 apples. Calculate how many apples remain.",
+    "acceptable": [
+      "twenty-eight",
+      "28 apples"
+    ]
+  },
+  {
+    "id": "math-004",
+    "category": "math",
+    "query": "What is 144 divided by 12?",
+    "expected": "12",
+    "rephrased": "Compute 144 divided by 12.",
+    "acceptable": [
+      "twelve"
+    ]
+  },
+  {
+    "id": "math-005",
+    "category": "math",
+    "query": "What is 15% of 200?",
+    "expected": "30",
+    "rephrased": "Calculate fifteen percent of two hundred.",
+    "acceptable": [
+      "thirty"
+    ]
+  },
+  {
+    "id": "math-006",
+    "category": "math",
+    "query": "What is the square root of 169?",
+    "expected": "13",
+    "rephrased": "Find the square root of 169.",
+    "acceptable": [
+      "thirteen"
+    ]
+  },
+  {
+    "id": "math-007",
+    "category": "math",
+    "query": "If a rectangle is 8 cm wide and 5 cm tall, what is its area in square cm?",
+    "expected": "40",
+    "acceptable": [
+      "40 cm2",
+      "40 square cm",
+      "forty",
+      "40 square centimeters"
+    ],
+    "rephrased": "A rectangle measures 8 cm by 5 cm. Compute its area in square centimeters."
+  },
+  {
+    "id": "math-008",
+    "category": "math",
+    "query": "What is 7 factorial (7!)?",
+    "expected": "5040",
+    "rephrased": "Compute the factorial of 7."
+  },
+  {
+    "id": "math-009",
+    "category": "math",
+    "query": "What is 2 to the power of 10?",
+    "expected": "1024",
+    "rephrased": "Compute 2 raised to the 10th power."
+  },
+  {
+    "id": "math-010",
+    "category": "math",
+    "query": "A car travels 150 km using 10 liters of fuel. What is its fuel efficiency in km per liter?",
+    "expected": "15",
+    "acceptable": [
+      "15 km/l",
+      "15 km per liter",
+      "fifteen",
+      "15 kilometers per liter"
+    ],
+    "rephrased": "A car covers 150 km on 10 liters of fuel. Determine its efficiency in kilometers per liter."
+  },
+  {
+    "id": "math-011",
+    "category": "math",
+    "query": "What is 13 multiplied by 14?",
+    "expected": "182",
+    "rephrased": "Compute the product of 13 and 14.",
+    "acceptable": [
+      "one hundred eighty-two"
+    ]
+  },
+  {
+    "id": "math-012",
+    "category": "math",
+    "query": "What is 18 multiplied by 21?",
+    "expected": "378",
+    "rephrased": "Compute the product of 18 and 21.",
+    "acceptable": [
+      "three hundred seventy-eight"
+    ]
+  },
+  {
+    "id": "math-013",
+    "category": "math",
+    "query": "What is 23 multiplied by 19?",
+    "expected": "437",
+    "rephrased": "Compute the product of 23 and 19.",
+    "acceptable": [
+      "four hundred thirty-seven"
+    ]
+  },
+  {
+    "id": "math-014",
+    "category": "math",
+    "query": "What is 27 multiplied by 12?",
+    "expected": "324",
+    "rephrased": "Compute the product of 27 and 12.",
+    "acceptable": [
+      "three hundred twenty-four"
+    ]
+  },
+  {
+    "id": "math-015",
+    "category": "math",
+    "query": "What is 16 multiplied by 16?",
+    "expected": "256",
+    "rephrased": "Compute the product of 16 and 16.",
+    "acceptable": [
+      "two hundred fifty-six"
+    ]
+  },
+  {
+    "id": "math-016",
+    "category": "math",
+    "query": "What is 25 multiplied by 25?",
+    "expected": "625",
+    "rephrased": "Compute the product of 25 and 25.",
+    "acceptable": [
+      "six hundred twenty-five"
+    ]
+  },
+  {
+    "id": "math-017",
+    "category": "math",
+    "query": "What is 34 multiplied by 11?",
+    "expected": "374",
+    "rephrased": "Compute the product of 34 and 11.",
+    "acceptable": [
+      "three hundred seventy-four"
+    ]
+  },
+  {
+    "id": "math-018",
+    "category": "math",
+    "query": "What is 29 multiplied by 13?",
+    "expected": "377",
+    "rephrased": "Compute the product of 29 and 13.",
+    "acceptable": [
+      "three hundred seventy-seven"
+    ]
+  },
+  {
+    "id": "math-019",
+    "category": "math",
+    "query": "What is 22 multiplied by 17?",
+    "expected": "374",
+    "rephrased": "Compute the product of 22 and 17.",
+    "acceptable": [
+      "three hundred seventy-four"
+    ]
+  },
+  {
+    "id": "math-020",
+    "category": "math",
+    "query": "What is 31 multiplied by 15?",
+    "expected": "465",
+    "rephrased": "Compute the product of 31 and 15.",
+    "acceptable": [
+      "four hundred sixty-five"
+    ]
+  },
+  {
+    "id": "math-021",
+    "category": "math",
+    "query": "What is 12 multiplied by 12?",
+    "expected": "144",
+    "rephrased": "Compute the product of 12 and 12.",
+    "acceptable": [
+      "one hundred forty-four"
+    ]
+  },
+  {
+    "id": "math-022",
+    "category": "math",
+    "query": "What is 19 multiplied by 19?",
+    "expected": "361",
+    "rephrased": "Compute the product of 19 and 19.",
+    "acceptable": [
+      "three hundred sixty-one"
+    ]
+  },
+  {
+    "id": "math-023",
+    "category": "math",
+    "query": "What is 24 multiplied by 21?",
+    "expected": "504",
+    "rephrased": "Compute the product of 24 and 21.",
+    "acceptable": [
+      "five hundred four"
+    ]
+  },
+  {
+    "id": "math-024",
+    "category": "math",
+    "query": "What is 33 multiplied by 14?",
+    "expected": "462",
+    "rephrased": "Compute the product of 33 and 14.",
+    "acceptable": [
+      "four hundred sixty-two"
+    ]
+  },
+  {
+    "id": "math-025",
+    "category": "math",
+    "query": "What is 26 multiplied by 18?",
+    "expected": "468",
+    "rephrased": "Compute the product of 26 and 18.",
+    "acceptable": [
+      "four hundred sixty-eight"
+    ]
+  },
+  {
+    "id": "math-026",
+    "category": "math",
+    "query": "What is 15 multiplied by 15?",
+    "expected": "225",
+    "rephrased": "Compute the product of 15 and 15.",
+    "acceptable": [
+      "two hundred twenty-five"
+    ]
+  },
+  {
+    "id": "math-027",
+    "category": "math",
+    "query": "What is 28 multiplied by 13?",
+    "expected": "364",
+    "rephrased": "Compute the product of 28 and 13.",
+    "acceptable": [
+      "three hundred sixty-four"
+    ]
+  },
+  {
+    "id": "math-028",
+    "category": "math",
+    "query": "What is 21 multiplied by 19?",
+    "expected": "399",
+    "rephrased": "Compute the product of 21 and 19.",
+    "acceptable": [
+      "three hundred ninety-nine"
+    ]
+  },
+  {
+    "id": "math-029",
+    "category": "math",
+    "query": "What is 17 multiplied by 17?",
+    "expected": "289",
+    "rephrased": "Compute the product of 17 and 17.",
+    "acceptable": [
+      "two hundred eighty-nine"
+    ]
+  },
+  {
+    "id": "math-030",
+    "category": "math",
+    "query": "What is 32 multiplied by 12?",
+    "expected": "384",
+    "rephrased": "Compute the product of 32 and 12.",
+    "acceptable": [
+      "three hundred eighty-four"
+    ]
+  },
+  {
+    "id": "math-031",
+    "category": "math",
+    "query": "What is 248 plus 137?",
+    "expected": "385",
+    "rephrased": "Compute the sum of 248 and 137.",
+    "acceptable": [
+      "three hundred eighty-five"
+    ]
+  },
+  {
+    "id": "math-032",
+    "category": "math",
+    "query": "What is 512 plus 389?",
+    "expected": "901",
+    "rephrased": "Compute the sum of 512 and 389.",
+    "acceptable": [
+      "nine hundred one"
+    ]
+  },
+  {
+    "id": "math-033",
+    "category": "math",
+    "query": "What is 726 plus 198?",
+    "expected": "924",
+    "rephrased": "Compute the sum of 726 and 198.",
+    "acceptable": [
+      "nine hundred twenty-four"
+    ]
+  },
+  {
+    "id": "math-034",
+    "category": "math",
+    "query": "What is 834 plus 566?",
+    "expected": "1400",
+    "rephrased": "Compute the sum of 834 and 566."
+  },
+  {
+    "id": "math-035",
+    "category": "math",
+    "query": "What is 149 plus 952?",
+    "expected": "1101",
+    "rephrased": "Compute the sum of 149 and 952."
+  },
+  {
+    "id": "math-036",
+    "category": "math",
+    "query": "What is 375 plus 628?",
+    "expected": "1003",
+    "rephrased": "Compute the sum of 375 and 628."
+  },
+  {
+    "id": "math-037",
+    "category": "math",
+    "query": "What is 481 plus 519?",
+    "expected": "1000",
+    "rephrased": "Compute the sum of 481 and 519.",
+    "acceptable": [
+      "one thousand"
+    ]
+  },
+  {
+    "id": "math-038",
+    "category": "math",
+    "query": "What is 903 plus 197?",
+    "expected": "1100",
+    "rephrased": "Compute the sum of 903 and 197."
+  },
+  {
+    "id": "math-039",
+    "category": "math",
+    "query": "What is 256 plus 744?",
+    "expected": "1000",
+    "rephrased": "Compute the sum of 256 and 744.",
+    "acceptable": [
+      "one thousand"
+    ]
+  },
+  {
+    "id": "math-040",
+    "category": "math",
+    "query": "What is 617 plus 283?",
+    "expected": "900",
+    "rephrased": "Compute the sum of 617 and 283.",
+    "acceptable": [
+      "nine hundred"
+    ]
+  },
+  {
+    "id": "math-041",
+    "category": "math",
+    "query": "What is 500 minus 137?",
+    "expected": "363",
+    "rephrased": "Compute 500 minus 137.",
+    "acceptable": [
+      "three hundred sixty-three"
+    ]
+  },
+  {
+    "id": "math-042",
+    "category": "math",
+    "query": "What is 812 minus 459?",
+    "expected": "353",
+    "rephrased": "Compute 812 minus 459.",
+    "acceptable": [
+      "three hundred fifty-three"
+    ]
+  },
+  {
+    "id": "math-043",
+    "category": "math",
+    "query": "What is 1000 minus 648?",
+    "expected": "352",
+    "rephrased": "Compute 1000 minus 648.",
+    "acceptable": [
+      "three hundred fifty-two"
+    ]
+  },
+  {
+    "id": "math-044",
+    "category": "math",
+    "query": "What is 734 minus 289?",
+    "expected": "445",
+    "rephrased": "Compute 734 minus 289.",
+    "acceptable": [
+      "four hundred forty-five"
+    ]
+  },
+  {
+    "id": "math-045",
+    "category": "math",
+    "query": "What is 605 minus 318?",
+    "expected": "287",
+    "rephrased": "Compute 605 minus 318.",
+    "acceptable": [
+      "two hundred eighty-seven"
+    ]
+  },
+  {
+    "id": "math-046",
+    "category": "math",
+    "query": "What is 920 minus 475?",
+    "expected": "445",
+    "rephrased": "Compute 920 minus 475.",
+    "acceptable": [
+      "four hundred forty-five"
+    ]
+  },
+  {
+    "id": "math-047",
+    "category": "math",
+    "query": "What is 681 minus 396?",
+    "expected": "285",
+    "rephrased": "Compute 681 minus 396.",
+    "acceptable": [
+      "two hundred eighty-five"
+    ]
+  },
+  {
+    "id": "math-048",
+    "category": "math",
+    "query": "What is 754 minus 268?",
+    "expected": "486",
+    "rephrased": "Compute 754 minus 268.",
+    "acceptable": [
+      "four hundred eighty-six"
+    ]
+  },
+  {
+    "id": "math-049",
+    "category": "math",
+    "query": "What is 843 minus 597?",
+    "expected": "246",
+    "rephrased": "Compute 843 minus 597.",
+    "acceptable": [
+      "two hundred forty-six"
+    ]
+  },
+  {
+    "id": "math-050",
+    "category": "math",
+    "query": "What is 710 minus 355?",
+    "expected": "355",
+    "rephrased": "Compute 710 minus 355.",
+    "acceptable": [
+      "three hundred fifty-five"
+    ]
+  },
+  {
+    "id": "math-051",
+    "category": "math",
+    "query": "What is 156 divided by 12?",
+    "expected": "13",
+    "rephrased": "Compute 156 divided by 12.",
+    "acceptable": [
+      "thirteen"
+    ]
+  },
+  {
+    "id": "math-052",
+    "category": "math",
+    "query": "What is 225 divided by 15?",
+    "expected": "15",
+    "rephrased": "Compute 225 divided by 15.",
+    "acceptable": [
+      "fifteen"
+    ]
+  },
+  {
+    "id": "math-053",
+    "category": "math",
+    "query": "What is 196 divided by 14?",
+    "expected": "14",
+    "rephrased": "Compute 196 divided by 14.",
+    "acceptable": [
+      "fourteen"
+    ]
+  },
+  {
+    "id": "math-054",
+    "category": "math",
+    "query": "What is 288 divided by 16?",
+    "expected": "18",
+    "rephrased": "Compute 288 divided by 16.",
+    "acceptable": [
+      "eighteen"
+    ]
+  },
+  {
+    "id": "math-055",
+    "category": "math",
+    "query": "What is 441 divided by 21?",
+    "expected": "21",
+    "rephrased": "Compute 441 divided by 21.",
+    "acceptable": [
+      "twenty-one"
+    ]
+  },
+  {
+    "id": "math-056",
+    "category": "math",
+    "query": "What is 169 divided by 13?",
+    "expected": "13",
+    "rephrased": "Compute 169 divided by 13.",
+    "acceptable": [
+      "thirteen"
+    ]
+  },
+  {
+    "id": "math-057",
+    "category": "math",
+    "query": "What is 324 divided by 18?",
+    "expected": "18",
+    "rephrased": "Compute 324 divided by 18.",
+    "acceptable": [
+      "eighteen"
+    ]
+  },
+  {
+    "id": "math-058",
+    "category": "math",
+    "query": "What is 375 divided by 25?",
+    "expected": "15",
+    "rephrased": "Compute 375 divided by 25.",
+    "acceptable": [
+      "fifteen"
+    ]
+  },
+  {
+    "id": "math-059",
+    "category": "math",
+    "query": "What is 256 divided by 16?",
+    "expected": "16",
+    "rephrased": "Compute 256 divided by 16.",
+    "acceptable": [
+      "sixteen"
+    ]
+  },
+  {
+    "id": "math-060",
+    "category": "math",
+    "query": "What is 528 divided by 22?",
+    "expected": "24",
+    "rephrased": "Compute 528 divided by 22.",
+    "acceptable": [
+      "twenty-four"
+    ]
+  },
+  {
+    "id": "math-061",
+    "category": "math",
+    "query": "What is 10% of 250?",
+    "expected": "25",
+    "rephrased": "Calculate 10 percent of 250.",
+    "acceptable": [
+      "twenty-five"
+    ]
+  },
+  {
+    "id": "math-062",
+    "category": "math",
+    "query": "What is 20% of 150?",
+    "expected": "30",
+    "rephrased": "Calculate 20 percent of 150.",
+    "acceptable": [
+      "thirty"
+    ]
+  },
+  {
+    "id": "math-063",
+    "category": "math",
+    "query": "What is 25% of 80?",
+    "expected": "20",
+    "rephrased": "Calculate 25 percent of 80.",
+    "acceptable": [
+      "twenty"
+    ]
+  },
+  {
+    "id": "math-064",
+    "category": "math",
+    "query": "What is 40% of 200?",
+    "expected": "80",
+    "rephrased": "Calculate 40 percent of 200.",
+    "acceptable": [
+      "eighty"
+    ]
+  },
+  {
+    "id": "math-065",
+    "category": "math",
+    "query": "What is 5% of 600?",
+    "expected": "30",
+    "rephrased": "Calculate 5 percent of 600.",
+    "acceptable": [
+      "thirty"
+    ]
+  },
+  {
+    "id": "math-066",
+    "category": "math",
+    "query": "What is 30% of 90?",
+    "expected": "27",
+    "rephrased": "Calculate 30 percent of 90.",
+    "acceptable": [
+      "twenty-seven"
+    ]
+  },
+  {
+    "id": "math-067",
+    "category": "math",
+    "query": "What is 50% of 248?",
+    "expected": "124",
+    "rephrased": "Calculate 50 percent of 248.",
+    "acceptable": [
+      "one hundred twenty-four"
+    ]
+  },
+  {
+    "id": "math-068",
+    "category": "math",
+    "query": "What is 12% of 300?",
+    "expected": "36",
+    "rephrased": "Calculate 12 percent of 300.",
+    "acceptable": [
+      "thirty-six"
+    ]
+  },
+  {
+    "id": "math-069",
+    "category": "math",
+    "query": "What is 75% of 80?",
+    "expected": "60",
+    "rephrased": "Calculate 75 percent of 80.",
+    "acceptable": [
+      "sixty"
+    ]
+  },
+  {
+    "id": "math-070",
+    "category": "math",
+    "query": "What is 60% of 120?",
+    "expected": "72",
+    "rephrased": "Calculate 60 percent of 120.",
+    "acceptable": [
+      "seventy-two"
+    ]
+  },
+  {
+    "id": "math-071",
+    "category": "math",
+    "query": "What is 14 squared?",
+    "expected": "196",
+    "rephrased": "Compute the square of 14.",
+    "acceptable": [
+      "one hundred ninety-six"
+    ]
+  },
+  {
+    "id": "math-072",
+    "category": "math",
+    "query": "What is 15 squared?",
+    "expected": "225",
+    "rephrased": "Compute the square of 15.",
+    "acceptable": [
+      "two hundred twenty-five"
+    ]
+  },
+  {
+    "id": "math-073",
+    "category": "math",
+    "query": "What is 17 squared?",
+    "expected": "289",
+    "rephrased": "Compute the square of 17.",
+    "acceptable": [
+      "two hundred eighty-nine"
+    ]
+  },
+  {
+    "id": "math-074",
+    "category": "math",
+    "query": "What is 18 squared?",
+    "expected": "324",
+    "rephrased": "Compute the square of 18.",
+    "acceptable": [
+      "three hundred twenty-four"
+    ]
+  },
+  {
+    "id": "math-075",
+    "category": "math",
+    "query": "What is 21 squared?",
+    "expected": "441",
+    "rephrased": "Compute the square of 21.",
+    "acceptable": [
+      "four hundred forty-one"
+    ]
+  },
+  {
+    "id": "math-076",
+    "category": "math",
+    "query": "What is 23 squared?",
+    "expected": "529",
+    "rephrased": "Compute the square of 23.",
+    "acceptable": [
+      "five hundred twenty-nine"
+    ]
+  },
+  {
+    "id": "math-077",
+    "category": "math",
+    "query": "What is 24 squared?",
+    "expected": "576",
+    "rephrased": "Compute the square of 24.",
+    "acceptable": [
+      "five hundred seventy-six"
+    ]
+  },
+  {
+    "id": "math-078",
+    "category": "math",
+    "query": "What is 26 squared?",
+    "expected": "676",
+    "rephrased": "Compute the square of 26.",
+    "acceptable": [
+      "six hundred seventy-six"
+    ]
+  },
+  {
+    "id": "math-079",
+    "category": "math",
+    "query": "What is 27 squared?",
+    "expected": "729",
+    "rephrased": "Compute the square of 27.",
+    "acceptable": [
+      "seven hundred twenty-nine"
+    ]
+  },
+  {
+    "id": "math-080",
+    "category": "math",
+    "query": "What is 31 squared?",
+    "expected": "961",
+    "rephrased": "Compute the square of 31.",
+    "acceptable": [
+      "nine hundred sixty-one"
+    ]
+  },
+  {
+    "id": "math-081",
+    "category": "math",
+    "query": "What is 2 to the power of 4?",
+    "expected": "16",
+    "rephrased": "Compute 2 raised to the power of 4.",
+    "acceptable": [
+      "sixteen"
+    ]
+  },
+  {
+    "id": "math-082",
+    "category": "math",
+    "query": "What is 2 to the power of 5?",
+    "expected": "32",
+    "rephrased": "Compute 2 raised to the power of 5.",
+    "acceptable": [
+      "thirty-two"
+    ]
+  },
+  {
+    "id": "math-083",
+    "category": "math",
+    "query": "What is 2 to the power of 6?",
+    "expected": "64",
+    "rephrased": "Compute 2 raised to the power of 6.",
+    "acceptable": [
+      "sixty-four"
+    ]
+  },
+  {
+    "id": "math-084",
+    "category": "math",
+    "query": "What is 2 to the power of 7?",
+    "expected": "128",
+    "rephrased": "Compute 2 raised to the power of 7.",
+    "acceptable": [
+      "one hundred twenty-eight"
+    ]
+  },
+  {
+    "id": "math-085",
+    "category": "math",
+    "query": "What is 2 to the power of 8?",
+    "expected": "256",
+    "rephrased": "Compute 2 raised to the power of 8.",
+    "acceptable": [
+      "two hundred fifty-six"
+    ]
+  },
+  {
+    "id": "math-086",
+    "category": "math",
+    "query": "What is 2 to the power of 9?",
+    "expected": "512",
+    "rephrased": "Compute 2 raised to the power of 9.",
+    "acceptable": [
+      "five hundred twelve"
+    ]
+  },
+  {
+    "id": "math-087",
+    "category": "math",
+    "query": "What is 2 to the power of 11?",
+    "expected": "2048",
+    "rephrased": "Compute 2 raised to the power of 11."
+  },
+  {
+    "id": "math-088",
+    "category": "math",
+    "query": "What is 2 to the power of 12?",
+    "expected": "4096",
+    "rephrased": "Compute 2 raised to the power of 12."
+  },
+  {
+    "id": "math-089",
+    "category": "math",
+    "query": "What is 2 to the power of 13?",
+    "expected": "8192",
+    "rephrased": "Compute 2 raised to the power of 13."
+  },
+  {
+    "id": "math-090",
+    "category": "math",
+    "query": "What is 2 to the power of 14?",
+    "expected": "16384",
+    "rephrased": "Compute 2 raised to the power of 14."
+  },
+  {
+    "id": "math-091",
+    "category": "math",
+    "query": "What is the average of the numbers 10, 20, 30?",
+    "expected": "20",
+    "rephrased": "Compute the arithmetic mean of 10, 20, 30.",
+    "acceptable": [
+      "twenty"
+    ]
+  },
+  {
+    "id": "math-092",
+    "category": "math",
+    "query": "What is the average of the numbers 4, 8, 12, 16?",
+    "expected": "10",
+    "rephrased": "Compute the arithmetic mean of 4, 8, 12, 16.",
+    "acceptable": [
+      "ten"
+    ]
+  },
+  {
+    "id": "math-093",
+    "category": "math",
+    "query": "What is the average of the numbers 5, 15, 25?",
+    "expected": "15",
+    "rephrased": "Compute the arithmetic mean of 5, 15, 25.",
+    "acceptable": [
+      "fifteen"
+    ]
+  },
+  {
+    "id": "math-094",
+    "category": "math",
+    "query": "What is the average of the numbers 2, 4, 6, 8?",
+    "expected": "5",
+    "rephrased": "Compute the arithmetic mean of 2, 4, 6, 8.",
+    "acceptable": [
+      "five"
+    ]
+  },
+  {
+    "id": "math-095",
+    "category": "math",
+    "query": "What is the average of the numbers 100, 200, 300?",
+    "expected": "200",
+    "rephrased": "Compute the arithmetic mean of 100, 200, 300.",
+    "acceptable": [
+      "two hundred"
+    ]
+  },
+  {
+    "id": "math-096",
+    "category": "math",
+    "query": "What is the average of the numbers 7, 14, 21?",
+    "expected": "14",
+    "rephrased": "Compute the arithmetic mean of 7, 14, 21.",
+    "acceptable": [
+      "fourteen"
+    ]
+  },
+  {
+    "id": "math-097",
+    "category": "math",
+    "query": "What is the average of the numbers 9, 18, 27?",
+    "expected": "18",
+    "rephrased": "Compute the arithmetic mean of 9, 18, 27.",
+    "acceptable": [
+      "eighteen"
+    ]
+  },
+  {
+    "id": "math-098",
+    "category": "math",
+    "query": "What is the average of the numbers 11, 22, 33?",
+    "expected": "22",
+    "rephrased": "Compute the arithmetic mean of 11, 22, 33.",
+    "acceptable": [
+      "twenty-two"
+    ]
+  },
+  {
+    "id": "math-099",
+    "category": "math",
+    "query": "What is the average of the numbers 50, 100, 150?",
+    "expected": "100",
+    "rephrased": "Compute the arithmetic mean of 50, 100, 150.",
+    "acceptable": [
+      "one hundred"
+    ]
+  },
+  {
+    "id": "math-100",
+    "category": "math",
+    "query": "What is the average of the numbers 6, 12, 18, 24?",
+    "expected": "15",
+    "rephrased": "Compute the arithmetic mean of 6, 12, 18, 24.",
+    "acceptable": [
+      "fifteen"
+    ]
+  }
+]

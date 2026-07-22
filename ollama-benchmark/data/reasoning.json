@@ -1,0 +1,1156 @@
+[
+  {
+    "id": "reasoning-001",
+    "category": "reasoning",
+    "query": "If all roses are flowers and some flowers fade quickly, can we conclude that some roses fade quickly?",
+    "expected": "No",
+    "acceptable": [
+      "no, we cannot",
+      "cannot conclude",
+      "not necessarily",
+      "no we cannot",
+      "no it does not",
+      "To determine whether we can conclude that \"some roses fade quickly\" from the given statements, let's break down the logical reasoning step by step.\n\n1. **Given Statements:**\n   - All roses are flowers.\n   - Some flowers fade quickly.\n\n2. **Analysis:**\n   - The first statement tells us that every rose is a flower. This means if something is a rose, it must also be a flower.\n   - The second statement indicates that there exists at least one flower that fades quickly. However, this does not specify the type of flowers (whether they are roses or another kind).\n\n3. **Logical Inference:**\n   - Since all roses are flowers, if some flowers fade quickly, it is possible that these quick-fading flowers include roses.\n   - But we cannot definitively conclude that any specific rose will fade quickly just from the given information. The statement \"some flowers fade quickly\" does not specify which types of flowers those are.\n\n4. **Conclusion:**\n   - We can reasonably infer that some roses might fade quickly, but we cannot conclusively state that it is true for all or even a subset of roses based solely on the provided statements.\n   \nTherefore, while it's possible and plausible that some roses fade quickly, we cannot definitively conclude from the given information alone that \"some roses fade quickly.\" We would need additional information to make such a definitive statement."
+    ],
+    "rephrased": "Premise 1: all roses are flowers. Premise 2: some flowers fade quickly. Does it logically follow that some roses fade quickly? Answer yes or no and explain."
+  },
+  {
+    "id": "reasoning-002",
+    "category": "reasoning",
+    "query": "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?",
+    "expected": "0.05",
+    "acceptable": [
+      "$0.05",
+      "5 cents",
+      "5c",
+      "0.05 dollars"
+    ],
+    "rephrased": "Together a bat and a ball cost $1.10. The bat is $1.00 more expensive than the ball. Work out the cost of the ball."
+  },
+  {
+    "id": "reasoning-003",
+    "category": "reasoning",
+    "query": "If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+    "expected": "5",
+    "acceptable": [
+      "5 minutes",
+      "five",
+      "5 min",
+      "5 widgets"
+    ],
+    "rephrased": "5 machines make 5 widgets in 5 minutes. How many minutes do 100 machines need to make 100 widgets?"
+  },
+  {
+    "id": "reasoning-004",
+    "category": "reasoning",
+    "query": "In a lake, a patch of lily pads doubles in size every day. If it takes 48 days to cover the whole lake, how many days does it take to cover half the lake?",
+    "expected": "47",
+    "acceptable": [
+      "47 days",
+      "forty-seven",
+      "Given that the patch of lily pads doubles in size every day and it takes 48 days to cover the entire lake, we can deduce the number of days required to cover half the lake by understanding the exponential growth pattern.\n\nSince the lily pad area doubles each day, on the 47th day, the lake would have been exactly half covered. This is because on the 48th day, when the patch doubles in size, it covers the entire lake. Therefore, the previous day (the 47th day) must be when the lake was half covered.\n\nSo, it takes **47 days** to cover half the lake.",
+      "Given that the lily-pad patch doubles in size every day and covers the entire lake on the 48th day, we can deduce when it was half-covered.\n\nSince the lily pads double in number each day, the amount of coverage would have been exactly half of what it is on any given day just one day before. Therefore, if the lake is fully covered on the 48th day, it must have been half-covered on the previous day, which is the 47th day.\n\nSo, the lily-pad patch was half-covered on the **47th day**.",
+      "If the lily-pad patch doubles in size every day and it takes 48 days to cover the entire lake, then on the previous day (the 47th day), the lake would have been only half-covered because the patch doubles in size from one day to the next.\n\nSo, the lake is half-covered on the 47th day."
+    ],
+    "rephrased": "A lily-pad patch doubles daily and covers a lake in 48 days. On which day is the lake half covered?"
+  },
+  {
+    "id": "reasoning-005",
+    "category": "reasoning",
+    "query": "Sarah is taller than Maria. Maria is taller than Lucy. Who is the tallest?",
+    "expected": "Sarah",
+    "rephrased": "Sarah is taller than Maria, and Maria is taller than Lucy. Name the tallest person."
+  },
+  {
+    "id": "reasoning-006",
+    "category": "reasoning",
+    "query": "All cats are mammals. All mammals are animals. Are all cats animals?",
+    "expected": "Yes",
+    "acceptable": [
+      "yes, all cats are animals",
+      "yes it does",
+      "yes we can"
+    ],
+    "rephrased": "Given that all cats are mammals and all mammals are animals, does it follow that all cats are animals?"
+  },
+  {
+    "id": "reasoning-007",
+    "category": "reasoning",
+    "query": "If today is Wednesday, what day of the week will it be in 3 days?",
+    "expected": "Saturday",
+    "rephrased": "Today is Wednesday. Which weekday occurs 3 days from now?"
+  },
+  {
+    "id": "reasoning-008",
+    "category": "reasoning",
+    "query": "A farmer has 17 sheep, and all but 9 die. How many sheep are left?",
+    "expected": "9",
+    "acceptable": [
+      "9 sheep",
+      "nine"
+    ],
+    "rephrased": "A farmer starts with 17 sheep. All but 9 of them die. How many remain?"
+  },
+  {
+    "id": "reasoning-009",
+    "category": "reasoning",
+    "query": "Which weighs more: a kilogram of feathers or a kilogram of steel?",
+    "expected": "They weigh the same",
+    "acceptable": [
+      "the same",
+      "neither",
+      "equal",
+      "same weight"
+    ],
+    "rephrased": "Compare the weight of one kilogram of feathers with one kilogram of steel. Which is heavier?"
+  },
+  {
+    "id": "reasoning-010",
+    "category": "reasoning",
+    "query": "If you have 3 apples and you take away 2, how many apples do you have?",
+    "expected": "2",
+    "acceptable": [
+      "2 apples",
+      "you have 2",
+      "two"
+    ],
+    "rephrased": "You start near a pile of 3 apples and take 2 of them. How many apples do you now have?"
+  },
+  {
+    "id": "reasoning-011",
+    "category": "reasoning",
+    "query": "If a train travels 60 km in 1.5 hours, what is its average speed in km/h?",
+    "expected": "40",
+    "acceptable": [
+      "40 km/h",
+      "40 kph",
+      "forty",
+      "40 kilometers per hour"
+    ],
+    "rephrased": "A train covers 60 kilometers in 1.5 hours. Determine its average speed in kilometers per hour."
+  },
+  {
+    "id": "reasoning-012",
+    "category": "reasoning",
+    "query": "If a train travels 120 km in 2 hours, what is its average speed in km/h?",
+    "expected": "60",
+    "acceptable": [
+      "60 km/h",
+      "60 kph",
+      "sixty",
+      "60 kilometers per hour"
+    ],
+    "rephrased": "A train covers 120 kilometers in 2 hours. Determine its average speed in kilometers per hour."
+  },
+  {
+    "id": "reasoning-013",
+    "category": "reasoning",
+    "query": "If a train travels 150 km in 3 hours, what is its average speed in km/h?",
+    "expected": "50",
+    "acceptable": [
+      "50 km/h",
+      "50 kph",
+      "fifty",
+      "50 kilometers per hour"
+    ],
+    "rephrased": "A train covers 150 kilometers in 3 hours. Determine its average speed in kilometers per hour."
+  },
+  {
+    "id": "reasoning-014",
+    "category": "reasoning",
+    "query": "If a train travels 200 km in 4 hours, what is its average speed in km/h?",
+    "expected": "50",
+    "acceptable": [
+      "50 km/h",
+      "50 kph",
+      "fifty",
+      "50 kilometers per hour"
+    ],
+    "rephrased": "A train covers 200 kilometers in 4 hours. Determine its average speed in kilometers per hour."
+  },
+  {
+    "id": "reasoning-015",
+    "category": "reasoning",
+    "query": "If a train travels 90 km in 1.5 hours, what is its average speed in km/h?",
+    "expected": "60",
+    "acceptable": [
+      "60 km/h",
+      "60 kph",
+      "sixty",
+      "60 kilometers per hour"
+    ],
+    "rephrased": "A train covers 90 kilometers in 1.5 hours. Determine its average speed in kilometers per hour."
+  },
+  {
+    "id": "reasoning-016",
+    "category": "reasoning",
+    "query": "If a train travels 240 km in 3 hours, what is its average speed in km/h?",
+    "expected": "80",
+    "acceptable": [
+      "80 km/h",
+      "80 kph",
+      "eighty",
+      "80 kilometers per hour"
+    ],
+    "rephrased": "A train covers 240 kilometers in 3 hours. Determine its average speed in kilometers per hour."
+  },
+  {
+    "id": "reasoning-017",
+    "category": "reasoning",
+    "query": "If a train travels 100 km in 2.5 hours, what is its average speed in km/h?",
+    "expected": "40",
+    "acceptable": [
+      "40 km/h",
+      "40 kph",
+      "forty",
+      "40 kilometers per hour"
+    ],
+    "rephrased": "A train covers 100 kilometers in 2.5 hours. Determine its average speed in kilometers per hour."
+  },
+  {
+    "id": "reasoning-018",
+    "category": "reasoning",
+    "query": "If a train travels 300 km in 5 hours, what is its average speed in km/h?",
+    "expected": "60",
+    "acceptable": [
+      "60 km/h",
+      "60 kph",
+      "sixty",
+      "60 kilometers per hour"
+    ],
+    "rephrased": "A train covers 300 kilometers in 5 hours. Determine its average speed in kilometers per hour."
+  },
+  {
+    "id": "reasoning-019",
+    "category": "reasoning",
+    "query": "If a train travels 180 km in 2 hours, what is its average speed in km/h?",
+    "expected": "90",
+    "acceptable": [
+      "90 km/h",
+      "90 kph",
+      "ninety",
+      "90 kilometers per hour"
+    ],
+    "rephrased": "A train covers 180 kilometers in 2 hours. Determine its average speed in kilometers per hour."
+  },
+  {
+    "id": "reasoning-020",
+    "category": "reasoning",
+    "query": "If a train travels 75 km in 1.5 hours, what is its average speed in km/h?",
+    "expected": "50",
+    "acceptable": [
+      "50 km/h",
+      "50 kph",
+      "fifty",
+      "50 kilometers per hour"
+    ],
+    "rephrased": "A train covers 75 kilometers in 1.5 hours. Determine its average speed in kilometers per hour."
+  },
+  {
+    "id": "reasoning-021",
+    "category": "reasoning",
+    "query": "A car drives 200 km at a constant speed of 50 km/h. How many hours does the journey take?",
+    "expected": "4",
+    "acceptable": [
+      "4 hours",
+      "4 h",
+      "four"
+    ],
+    "rephrased": "Traveling 200 km at 50 km/h, how long (in hours) does the trip take?"
+  },
+  {
+    "id": "reasoning-022",
+    "category": "reasoning",
+    "query": "A car drives 300 km at a constant speed of 60 km/h. How many hours does the journey take?",
+    "expected": "5",
+    "acceptable": [
+      "5 hours",
+      "5 h",
+      "five"
+    ],
+    "rephrased": "Traveling 300 km at 60 km/h, how long (in hours) does the trip take?"
+  },
+  {
+    "id": "reasoning-023",
+    "category": "reasoning",
+    "query": "A car drives 150 km at a constant speed of 30 km/h. How many hours does the journey take?",
+    "expected": "5",
+    "acceptable": [
+      "5 hours",
+      "5 h",
+      "five"
+    ],
+    "rephrased": "Traveling 150 km at 30 km/h, how long (in hours) does the trip take?"
+  },
+  {
+    "id": "reasoning-024",
+    "category": "reasoning",
+    "query": "A car drives 240 km at a constant speed of 80 km/h. How many hours does the journey take?",
+    "expected": "3",
+    "acceptable": [
+      "3 hours",
+      "3 h",
+      "three"
+    ],
+    "rephrased": "Traveling 240 km at 80 km/h, how long (in hours) does the trip take?"
+  },
+  {
+    "id": "reasoning-025",
+    "category": "reasoning",
+    "query": "A car drives 100 km at a constant speed of 25 km/h. How many hours does the journey take?",
+    "expected": "4",
+    "acceptable": [
+      "4 hours",
+      "4 h",
+      "four"
+    ],
+    "rephrased": "Traveling 100 km at 25 km/h, how long (in hours) does the trip take?"
+  },
+  {
+    "id": "reasoning-026",
+    "category": "reasoning",
+    "query": "A car drives 360 km at a constant speed of 90 km/h. How many hours does the journey take?",
+    "expected": "4",
+    "acceptable": [
+      "4 hours",
+      "4 h",
+      "four"
+    ],
+    "rephrased": "Traveling 360 km at 90 km/h, how long (in hours) does the trip take?"
+  },
+  {
+    "id": "reasoning-027",
+    "category": "reasoning",
+    "query": "A car drives 120 km at a constant speed of 40 km/h. How many hours does the journey take?",
+    "expected": "3",
+    "acceptable": [
+      "3 hours",
+      "3 h",
+      "three"
+    ],
+    "rephrased": "Traveling 120 km at 40 km/h, how long (in hours) does the trip take?"
+  },
+  {
+    "id": "reasoning-028",
+    "category": "reasoning",
+    "query": "A car drives 500 km at a constant speed of 100 km/h. How many hours does the journey take?",
+    "expected": "5",
+    "acceptable": [
+      "5 hours",
+      "5 h",
+      "five"
+    ],
+    "rephrased": "Traveling 500 km at 100 km/h, how long (in hours) does the trip take?"
+  },
+  {
+    "id": "reasoning-029",
+    "category": "reasoning",
+    "query": "A car drives 180 km at a constant speed of 60 km/h. How many hours does the journey take?",
+    "expected": "3",
+    "acceptable": [
+      "3 hours",
+      "3 h",
+      "three"
+    ],
+    "rephrased": "Traveling 180 km at 60 km/h, how long (in hours) does the trip take?"
+  },
+  {
+    "id": "reasoning-030",
+    "category": "reasoning",
+    "query": "A car drives 210 km at a constant speed of 70 km/h. How many hours does the journey take?",
+    "expected": "3",
+    "acceptable": [
+      "3 hours",
+      "3 h",
+      "three"
+    ],
+    "rephrased": "Traveling 210 km at 70 km/h, how long (in hours) does the trip take?"
+  },
+  {
+    "id": "reasoning-031",
+    "category": "reasoning",
+    "query": "Anna is 8 years old now. How old will she be in 5 years?",
+    "expected": "13",
+    "acceptable": [
+      "13 years old",
+      "13 years",
+      "thirteen",
+      "13 years of age"
+    ],
+    "rephrased": "If Anna is currently 8, what will her age be 5 years from now?"
+  },
+  {
+    "id": "reasoning-032",
+    "category": "reasoning",
+    "query": "Anna is 12 years old now. How old will she be in 10 years?",
+    "expected": "22",
+    "acceptable": [
+      "22 years old",
+      "22 years",
+      "twenty-two",
+      "22 years of age"
+    ],
+    "rephrased": "If Anna is currently 12, what will her age be 10 years from now?"
+  },
+  {
+    "id": "reasoning-033",
+    "category": "reasoning",
+    "query": "Anna is 25 years old now. How old will she be in 7 years?",
+    "expected": "32",
+    "acceptable": [
+      "32 years old",
+      "32 years",
+      "thirty-two",
+      "32 years of age"
+    ],
+    "rephrased": "If Anna is currently 25, what will her age be 7 years from now?"
+  },
+  {
+    "id": "reasoning-034",
+    "category": "reasoning",
+    "query": "Anna is 30 years old now. How old will she be in 15 years?",
+    "expected": "45",
+    "acceptable": [
+      "45 years old",
+      "45 years",
+      "forty-five",
+      "45 years of age"
+    ],
+    "rephrased": "If Anna is currently 30, what will her age be 15 years from now?"
+  },
+  {
+    "id": "reasoning-035",
+    "category": "reasoning",
+    "query": "Anna is 18 years old now. How old will she be in 4 years?",
+    "expected": "22",
+    "acceptable": [
+      "22 years old",
+      "22 years",
+      "twenty-two",
+      "22 years of age"
+    ],
+    "rephrased": "If Anna is currently 18, what will her age be 4 years from now?"
+  },
+  {
+    "id": "reasoning-036",
+    "category": "reasoning",
+    "query": "Anna is 40 years old now. How old will she be in 20 years?",
+    "expected": "60",
+    "acceptable": [
+      "60 years old",
+      "60 years",
+      "sixty",
+      "60 years of age"
+    ],
+    "rephrased": "If Anna is currently 40, what will her age be 20 years from now?"
+  },
+  {
+    "id": "reasoning-037",
+    "category": "reasoning",
+    "query": "Anna is 9 years old now. How old will she be in 6 years?",
+    "expected": "15",
+    "acceptable": [
+      "15 years old",
+      "15 years",
+      "fifteen",
+      "15 years of age"
+    ],
+    "rephrased": "If Anna is currently 9, what will her age be 6 years from now?"
+  },
+  {
+    "id": "reasoning-038",
+    "category": "reasoning",
+    "query": "Anna is 50 years old now. How old will she be in 10 years?",
+    "expected": "60",
+    "acceptable": [
+      "60 years old",
+      "60 years",
+      "sixty",
+      "60 years of age"
+    ],
+    "rephrased": "If Anna is currently 50, what will her age be 10 years from now?"
+  },
+  {
+    "id": "reasoning-039",
+    "category": "reasoning",
+    "query": "Anna is 16 years old now. How old will she be in 9 years?",
+    "expected": "25",
+    "acceptable": [
+      "25 years old",
+      "25 years",
+      "twenty-five",
+      "25 years of age"
+    ],
+    "rephrased": "If Anna is currently 16, what will her age be 9 years from now?"
+  },
+  {
+    "id": "reasoning-040",
+    "category": "reasoning",
+    "query": "Anna is 7 years old now. How old will she be in 3 years?",
+    "expected": "10",
+    "acceptable": [
+      "10 years old",
+      "10 years",
+      "ten",
+      "10 years of age"
+    ],
+    "rephrased": "If Anna is currently 7, what will her age be 3 years from now?"
+  },
+  {
+    "id": "reasoning-041",
+    "category": "reasoning",
+    "query": "Mark has 20 marbles. He gives 7 of them to his friend. How many marbles does he have left?",
+    "expected": "13",
+    "acceptable": [
+      "13 marbles",
+      "thirteen"
+    ],
+    "rephrased": "Starting with 20 marbles, Mark gives away 7. How many remain?"
+  },
+  {
+    "id": "reasoning-042",
+    "category": "reasoning",
+    "query": "Mark has 50 marbles. He gives 18 of them to his friend. How many marbles does he have left?",
+    "expected": "32",
+    "acceptable": [
+      "32 marbles",
+      "thirty-two"
+    ],
+    "rephrased": "Starting with 50 marbles, Mark gives away 18. How many remain?"
+  },
+  {
+    "id": "reasoning-043",
+    "category": "reasoning",
+    "query": "Mark has 100 marbles. He gives 45 of them to his friend. How many marbles does he have left?",
+    "expected": "55",
+    "acceptable": [
+      "55 marbles",
+      "fifty-five"
+    ],
+    "rephrased": "Starting with 100 marbles, Mark gives away 45. How many remain?"
+  },
+  {
+    "id": "reasoning-044",
+    "category": "reasoning",
+    "query": "Mark has 36 marbles. He gives 12 of them to his friend. How many marbles does he have left?",
+    "expected": "24",
+    "acceptable": [
+      "24 marbles",
+      "twenty-four"
+    ],
+    "rephrased": "Starting with 36 marbles, Mark gives away 12. How many remain?"
+  },
+  {
+    "id": "reasoning-045",
+    "category": "reasoning",
+    "query": "Mark has 75 marbles. He gives 28 of them to his friend. How many marbles does he have left?",
+    "expected": "47",
+    "acceptable": [
+      "47 marbles",
+      "forty-seven"
+    ],
+    "rephrased": "Starting with 75 marbles, Mark gives away 28. How many remain?"
+  },
+  {
+    "id": "reasoning-046",
+    "category": "reasoning",
+    "query": "Mark has 60 marbles. He gives 35 of them to his friend. How many marbles does he have left?",
+    "expected": "25",
+    "acceptable": [
+      "25 marbles",
+      "twenty-five"
+    ],
+    "rephrased": "Starting with 60 marbles, Mark gives away 35. How many remain?"
+  },
+  {
+    "id": "reasoning-047",
+    "category": "reasoning",
+    "query": "Mark has 90 marbles. He gives 41 of them to his friend. How many marbles does he have left?",
+    "expected": "49",
+    "acceptable": [
+      "49 marbles",
+      "forty-nine"
+    ],
+    "rephrased": "Starting with 90 marbles, Mark gives away 41. How many remain?"
+  },
+  {
+    "id": "reasoning-048",
+    "category": "reasoning",
+    "query": "Mark has 48 marbles. He gives 19 of them to his friend. How many marbles does he have left?",
+    "expected": "29",
+    "acceptable": [
+      "29 marbles",
+      "twenty-nine"
+    ],
+    "rephrased": "Starting with 48 marbles, Mark gives away 19. How many remain?"
+  },
+  {
+    "id": "reasoning-049",
+    "category": "reasoning",
+    "query": "Mark has 83 marbles. He gives 27 of them to his friend. How many marbles does he have left?",
+    "expected": "56",
+    "acceptable": [
+      "56 marbles",
+      "fifty-six"
+    ],
+    "rephrased": "Starting with 83 marbles, Mark gives away 27. How many remain?"
+  },
+  {
+    "id": "reasoning-050",
+    "category": "reasoning",
+    "query": "Mark has 70 marbles. He gives 33 of them to his friend. How many marbles does he have left?",
+    "expected": "37",
+    "acceptable": [
+      "37 marbles",
+      "thirty-seven"
+    ],
+    "rephrased": "Starting with 70 marbles, Mark gives away 33. How many remain?"
+  },
+  {
+    "id": "reasoning-051",
+    "category": "reasoning",
+    "query": "A notebook costs $4. How much do 3 notebooks cost in total?",
+    "expected": "12",
+    "acceptable": [
+      "$12",
+      "12 dollars",
+      "twelve"
+    ],
+    "rephrased": "If one notebook is $4, what is the total price for 3 notebooks?"
+  },
+  {
+    "id": "reasoning-052",
+    "category": "reasoning",
+    "query": "A notebook costs $6. How much do 5 notebooks cost in total?",
+    "expected": "30",
+    "acceptable": [
+      "$30",
+      "30 dollars",
+      "thirty"
+    ],
+    "rephrased": "If one notebook is $6, what is the total price for 5 notebooks?"
+  },
+  {
+    "id": "reasoning-053",
+    "category": "reasoning",
+    "query": "A notebook costs $3. How much do 7 notebooks cost in total?",
+    "expected": "21",
+    "acceptable": [
+      "$21",
+      "21 dollars",
+      "twenty-one"
+    ],
+    "rephrased": "If one notebook is $3, what is the total price for 7 notebooks?"
+  },
+  {
+    "id": "reasoning-054",
+    "category": "reasoning",
+    "query": "A notebook costs $9. How much do 4 notebooks cost in total?",
+    "expected": "36",
+    "acceptable": [
+      "$36",
+      "36 dollars",
+      "thirty-six"
+    ],
+    "rephrased": "If one notebook is $9, what is the total price for 4 notebooks?"
+  },
+  {
+    "id": "reasoning-055",
+    "category": "reasoning",
+    "query": "A notebook costs $8. How much do 6 notebooks cost in total?",
+    "expected": "48",
+    "acceptable": [
+      "$48",
+      "48 dollars",
+      "forty-eight"
+    ],
+    "rephrased": "If one notebook is $8, what is the total price for 6 notebooks?"
+  },
+  {
+    "id": "reasoning-056",
+    "category": "reasoning",
+    "query": "A notebook costs $15. How much do 2 notebooks cost in total?",
+    "expected": "30",
+    "acceptable": [
+      "$30",
+      "30 dollars",
+      "thirty"
+    ],
+    "rephrased": "If one notebook is $15, what is the total price for 2 notebooks?"
+  },
+  {
+    "id": "reasoning-057",
+    "category": "reasoning",
+    "query": "A notebook costs $5. How much do 8 notebooks cost in total?",
+    "expected": "40",
+    "acceptable": [
+      "$40",
+      "40 dollars",
+      "forty"
+    ],
+    "rephrased": "If one notebook is $5, what is the total price for 8 notebooks?"
+  },
+  {
+    "id": "reasoning-058",
+    "category": "reasoning",
+    "query": "A notebook costs $7. How much do 10 notebooks cost in total?",
+    "expected": "70",
+    "acceptable": [
+      "$70",
+      "70 dollars",
+      "seventy"
+    ],
+    "rephrased": "If one notebook is $7, what is the total price for 10 notebooks?"
+  },
+  {
+    "id": "reasoning-059",
+    "category": "reasoning",
+    "query": "A notebook costs $4. How much do 9 notebooks cost in total?",
+    "expected": "36",
+    "acceptable": [
+      "$36",
+      "36 dollars",
+      "thirty-six"
+    ],
+    "rephrased": "If one notebook is $4, what is the total price for 9 notebooks?"
+  },
+  {
+    "id": "reasoning-060",
+    "category": "reasoning",
+    "query": "A notebook costs $3. How much do 12 notebooks cost in total?",
+    "expected": "36",
+    "acceptable": [
+      "$36",
+      "36 dollars",
+      "thirty-six"
+    ],
+    "rephrased": "If one notebook is $3, what is the total price for 12 notebooks?"
+  },
+  {
+    "id": "reasoning-061",
+    "category": "reasoning",
+    "query": "What is the next number in the sequence 2, 4, 6, 8, ...?",
+    "expected": "10",
+    "rephrased": "Identify the next term that follows 2, 4, 6, 8 in this sequence.",
+    "acceptable": [
+      "ten"
+    ]
+  },
+  {
+    "id": "reasoning-062",
+    "category": "reasoning",
+    "query": "What is the next number in the sequence 5, 10, 15, 20, ...?",
+    "expected": "25",
+    "rephrased": "Identify the next term that follows 5, 10, 15, 20 in this sequence.",
+    "acceptable": [
+      "twenty-five"
+    ]
+  },
+  {
+    "id": "reasoning-063",
+    "category": "reasoning",
+    "query": "What is the next number in the sequence 3, 6, 9, 12, ...?",
+    "expected": "15",
+    "rephrased": "Identify the next term that follows 3, 6, 9, 12 in this sequence.",
+    "acceptable": [
+      "fifteen"
+    ]
+  },
+  {
+    "id": "reasoning-064",
+    "category": "reasoning",
+    "query": "What is the next number in the sequence 1, 4, 7, 10, ...?",
+    "expected": "13",
+    "rephrased": "Identify the next term that follows 1, 4, 7, 10 in this sequence.",
+    "acceptable": [
+      "thirteen"
+    ]
+  },
+  {
+    "id": "reasoning-065",
+    "category": "reasoning",
+    "query": "What is the next number in the sequence 10, 20, 30, 40, ...?",
+    "expected": "50",
+    "rephrased": "Identify the next term that follows 10, 20, 30, 40 in this sequence.",
+    "acceptable": [
+      "fifty"
+    ]
+  },
+  {
+    "id": "reasoning-066",
+    "category": "reasoning",
+    "query": "What is the next number in the sequence 7, 14, 21, 28, ...?",
+    "expected": "35",
+    "rephrased": "Identify the next term that follows 7, 14, 21, 28 in this sequence.",
+    "acceptable": [
+      "thirty-five"
+    ]
+  },
+  {
+    "id": "reasoning-067",
+    "category": "reasoning",
+    "query": "What is the next number in the sequence 100, 90, 80, 70, ...?",
+    "expected": "60",
+    "rephrased": "Identify the next term that follows 100, 90, 80, 70 in this sequence.",
+    "acceptable": [
+      "sixty"
+    ]
+  },
+  {
+    "id": "reasoning-068",
+    "category": "reasoning",
+    "query": "What is the next number in the sequence 2, 5, 8, 11, ...?",
+    "expected": "14",
+    "rephrased": "Identify the next term that follows 2, 5, 8, 11 in this sequence.",
+    "acceptable": [
+      "fourteen"
+    ]
+  },
+  {
+    "id": "reasoning-069",
+    "category": "reasoning",
+    "query": "What is the next number in the sequence 0, 3, 6, 9, ...?",
+    "expected": "12",
+    "rephrased": "Identify the next term that follows 0, 3, 6, 9 in this sequence.",
+    "acceptable": [
+      "twelve"
+    ]
+  },
+  {
+    "id": "reasoning-070",
+    "category": "reasoning",
+    "query": "What is the next number in the sequence 11, 22, 33, 44, ...?",
+    "expected": "55",
+    "rephrased": "Identify the next term that follows 11, 22, 33, 44 in this sequence.",
+    "acceptable": [
+      "fifty-five"
+    ]
+  },
+  {
+    "id": "reasoning-071",
+    "category": "reasoning",
+    "query": "What is the next number in the sequence 1, 2, 4, 8, ...?",
+    "expected": "16",
+    "rephrased": "Following the pattern 1, 2, 4, 8, what is the next term?",
+    "acceptable": [
+      "sixteen"
+    ]
+  },
+  {
+    "id": "reasoning-072",
+    "category": "reasoning",
+    "query": "What is the next number in the sequence 2, 4, 8, 16, ...?",
+    "expected": "32",
+    "rephrased": "Following the pattern 2, 4, 8, 16, what is the next term?",
+    "acceptable": [
+      "thirty-two"
+    ]
+  },
+  {
+    "id": "reasoning-073",
+    "category": "reasoning",
+    "query": "What is the next number in the sequence 3, 6, 12, 24, ...?",
+    "expected": "48",
+    "rephrased": "Following the pattern 3, 6, 12, 24, what is the next term?",
+    "acceptable": [
+      "forty-eight"
+    ]
+  },
+  {
+    "id": "reasoning-074",
+    "category": "reasoning",
+    "query": "What is the next number in the sequence 5, 10, 20, 40, ...?",
+    "expected": "80",
+    "rephrased": "Following the pattern 5, 10, 20, 40, what is the next term?",
+    "acceptable": [
+      "eighty"
+    ]
+  },
+  {
+    "id": "reasoning-075",
+    "category": "reasoning",
+    "query": "What is the next number in the sequence 1, 3, 9, 27, ...?",
+    "expected": "81",
+    "rephrased": "Following the pattern 1, 3, 9, 27, what is the next term?",
+    "acceptable": [
+      "eighty-one"
+    ]
+  },
+  {
+    "id": "reasoning-076",
+    "category": "reasoning",
+    "query": "What is the next number in the sequence 2, 6, 18, 54, ...?",
+    "expected": "162",
+    "rephrased": "Following the pattern 2, 6, 18, 54, what is the next term?",
+    "acceptable": [
+      "one hundred sixty-two"
+    ]
+  },
+  {
+    "id": "reasoning-077",
+    "category": "reasoning",
+    "query": "What is the next number in the sequence 1, 5, 25, 125, ...?",
+    "expected": "625",
+    "rephrased": "Following the pattern 1, 5, 25, 125, what is the next term?",
+    "acceptable": [
+      "six hundred twenty-five"
+    ]
+  },
+  {
+    "id": "reasoning-078",
+    "category": "reasoning",
+    "query": "What is the next number in the sequence 4, 8, 16, 32, ...?",
+    "expected": "64",
+    "rephrased": "Following the pattern 4, 8, 16, 32, what is the next term?",
+    "acceptable": [
+      "sixty-four"
+    ]
+  },
+  {
+    "id": "reasoning-079",
+    "category": "reasoning",
+    "query": "What is the next number in the sequence 10, 20, 40, 80, ...?",
+    "expected": "160",
+    "rephrased": "Following the pattern 10, 20, 40, 80, what is the next term?",
+    "acceptable": [
+      "one hundred sixty"
+    ]
+  },
+  {
+    "id": "reasoning-080",
+    "category": "reasoning",
+    "query": "What is the next number in the sequence 1, 10, 100, 1000, ...?",
+    "expected": "10000",
+    "rephrased": "Following the pattern 1, 10, 100, 1000, what is the next term?"
+  },
+  {
+    "id": "reasoning-081",
+    "category": "reasoning",
+    "query": "There are 24 students in a class. If 1/3 of them play sports, how many students play sports?",
+    "expected": "8",
+    "acceptable": [
+      "8 students",
+      "eight"
+    ],
+    "rephrased": "Out of 24 students, one 3th play sports. How many is that?"
+  },
+  {
+    "id": "reasoning-082",
+    "category": "reasoning",
+    "query": "There are 30 students in a class. If 1/5 of them play sports, how many students play sports?",
+    "expected": "6",
+    "acceptable": [
+      "6 students",
+      "six"
+    ],
+    "rephrased": "Out of 30 students, one 5th play sports. How many is that?"
+  },
+  {
+    "id": "reasoning-083",
+    "category": "reasoning",
+    "query": "There are 40 students in a class. If 1/4 of them play sports, how many students play sports?",
+    "expected": "10",
+    "acceptable": [
+      "10 students",
+      "ten"
+    ],
+    "rephrased": "Out of 40 students, one 4th play sports. How many is that?"
+  },
+  {
+    "id": "reasoning-084",
+    "category": "reasoning",
+    "query": "There are 18 students in a class. If 1/2 of them play sports, how many students play sports?",
+    "expected": "9",
+    "acceptable": [
+      "9 students",
+      "nine"
+    ],
+    "rephrased": "Out of 18 students, one 2th play sports. How many is that?"
+  },
+  {
+    "id": "reasoning-085",
+    "category": "reasoning",
+    "query": "There are 36 students in a class. If 1/6 of them play sports, how many students play sports?",
+    "expected": "6",
+    "acceptable": [
+      "6 students",
+      "six"
+    ],
+    "rephrased": "Out of 36 students, one 6th play sports. How many is that?"
+  },
+  {
+    "id": "reasoning-086",
+    "category": "reasoning",
+    "query": "There are 50 students in a class. If 1/5 of them play sports, how many students play sports?",
+    "expected": "10",
+    "acceptable": [
+      "10 students",
+      "ten"
+    ],
+    "rephrased": "Out of 50 students, one 5th play sports. How many is that?"
+  },
+  {
+    "id": "reasoning-087",
+    "category": "reasoning",
+    "query": "There are 21 students in a class. If 1/3 of them play sports, how many students play sports?",
+    "expected": "7",
+    "acceptable": [
+      "7 students",
+      "seven"
+    ],
+    "rephrased": "Out of 21 students, one 3th play sports. How many is that?"
+  },
+  {
+    "id": "reasoning-088",
+    "category": "reasoning",
+    "query": "There are 48 students in a class. If 1/8 of them play sports, how many students play sports?",
+    "expected": "6",
+    "acceptable": [
+      "6 students",
+      "six"
+    ],
+    "rephrased": "Out of 48 students, one 8th play sports. How many is that?"
+  },
+  {
+    "id": "reasoning-089",
+    "category": "reasoning",
+    "query": "There are 60 students in a class. If 1/4 of them play sports, how many students play sports?",
+    "expected": "15",
+    "acceptable": [
+      "15 students",
+      "fifteen"
+    ],
+    "rephrased": "Out of 60 students, one 4th play sports. How many is that?"
+  },
+  {
+    "id": "reasoning-090",
+    "category": "reasoning",
+    "query": "There are 27 students in a class. If 1/3 of them play sports, how many students play sports?",
+    "expected": "9",
+    "acceptable": [
+      "9 students",
+      "nine"
+    ],
+    "rephrased": "Out of 27 students, one 3th play sports. How many is that?"
+  },
+  {
+    "id": "reasoning-091",
+    "category": "reasoning",
+    "query": "A jacket costs $40 and is reduced by 25%. What is the final price?",
+    "expected": "30",
+    "acceptable": [
+      "$30",
+      "30 dollars",
+      "thirty"
+    ],
+    "rephrased": "A jacket priced at $40 gets a 25% discount. What is the price after the discount?"
+  },
+  {
+    "id": "reasoning-092",
+    "category": "reasoning",
+    "query": "A jacket costs $100 and is reduced by 10%. What is the final price?",
+    "expected": "90",
+    "acceptable": [
+      "$90",
+      "90 dollars",
+      "ninety"
+    ],
+    "rephrased": "A jacket priced at $100 gets a 10% discount. What is the price after the discount?"
+  },
+  {
+    "id": "reasoning-093",
+    "category": "reasoning",
+    "query": "A jacket costs $80 and is reduced by 50%. What is the final price?",
+    "expected": "40",
+    "acceptable": [
+      "$40",
+      "40 dollars",
+      "forty"
+    ],
+    "rephrased": "A jacket priced at $80 gets a 50% discount. What is the price after the discount?"
+  },
+  {
+    "id": "reasoning-094",
+    "category": "reasoning",
+    "query": "A jacket costs $60 and is reduced by 20%. What is the final price?",
+    "expected": "48",
+    "acceptable": [
+      "$48",
+      "48 dollars",
+      "forty-eight"
+    ],
+    "rephrased": "A jacket priced at $60 gets a 20% discount. What is the price after the discount?"
+  },
+  {
+    "id": "reasoning-095",
+    "category": "reasoning",
+    "query": "A jacket costs $200 and is reduced by 15%. What is the final price?",
+    "expected": "170",
+    "acceptable": [
+      "$170",
+      "170 dollars",
+      "one hundred seventy"
+    ],
+    "rephrased": "A jacket priced at $200 gets a 15% discount. What is the price after the discount?"
+  },
+  {
+    "id": "reasoning-096",
+    "category": "reasoning",
+    "query": "A jacket costs $50 and is reduced by 30%. What is the final price?",
+    "expected": "35",
+    "acceptable": [
+      "$35",
+      "35 dollars",
+      "thirty-five"
+    ],
+    "rephrased": "A jacket priced at $50 gets a 30% discount. What is the price after the discount?"
+  },
+  {
+    "id": "reasoning-097",
+    "category": "reasoning",
+    "query": "A jacket costs $120 and is reduced by 25%. What is the final price?",
+    "expected": "90",
+    "acceptable": [
+      "$90",
+      "90 dollars",
+      "ninety"
+    ],
+    "rephrased": "A jacket priced at $120 gets a 25% discount. What is the price after the discount?"
+  },
+  {
+    "id": "reasoning-098",
+    "category": "reasoning",
+    "query": "A jacket costs $90 and is reduced by 10%. What is the final price?",
+    "expected": "81",
+    "acceptable": [
+      "$81",
+      "81 dollars",
+      "eighty-one"
+    ],
+    "rephrased": "A jacket priced at $90 gets a 10% discount. What is the price after the discount?"
+  },
+  {
+    "id": "reasoning-099",
+    "category": "reasoning",
+    "query": "A jacket costs $150 and is reduced by 40%. What is the final price?",
+    "expected": "90",
+    "acceptable": [
+      "$90",
+      "90 dollars",
+      "ninety"
+    ],
+    "rephrased": "A jacket priced at $150 gets a 40% discount. What is the price after the discount?"
+  },
+  {
+    "id": "reasoning-100",
+    "category": "reasoning",
+    "query": "A jacket costs $70 and is reduced by 20%. What is the final price?",
+    "expected": "56",
+    "acceptable": [
+      "$56",
+      "56 dollars",
+      "fifty-six"
+    ],
+    "rephrased": "A jacket priced at $70 gets a 20% discount. What is the price after the discount?"
+  }
+]
