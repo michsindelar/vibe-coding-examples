@@ -1,0 +1,18 @@
+[project]
+name = "fermi-detective"
+version = "1.0.0"
+description = "A ReAct agent that answers Fermi estimation questions with sourced, auditable estimates (LangGraph + OpenAI + MCP)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain-core>=0.3",
+    "langchain-openai>=0.3",
+    "langgraph>=1.0",
+    "langchain-mcp-adapters>=0.3",
+    "mcp>=1.9",
+    "ddgs>=9.0",
+    "python-dotenv>=1.0",
+]
+
+# No [build-system] on purpose: this is a flat script project, not an
+# installable package — uv then manages only the dependencies.

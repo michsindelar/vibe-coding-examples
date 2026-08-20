@@ -1,0 +1,32 @@
+[
+  {
+    "question": "How many piano tuners work in Chicago?",
+    "reference": 230,
+    "unit": "tuners",
+    "note": "The classic Fermi problem; directory counts and estimates cluster around 100-300."
+  },
+  {
+    "question": "How many breaths does an average person take in an 80-year lifetime?",
+    "reference": 670000000,
+    "unit": "breaths",
+    "note": "About 16 breaths per minute over 80 years."
+  },
+  {
+    "question": "How many liters of paint are needed to repaint the Eiffel Tower once?",
+    "reference": 46000,
+    "unit": "liters",
+    "note": "Official campaigns use about 60 tonnes of paint (~1.3 kg/L)."
+  },
+  {
+    "question": "How many tennis balls would fit inside a Boeing 747 passenger cabin?",
+    "reference": 3500000,
+    "unit": "balls",
+    "note": "Cabin ~870 m3, ball ~1.57e-4 m3, random close packing ~0.64."
+  },
+  {
+    "question": "What is the total mass of all gold ever mined, in tonnes?",
+    "reference": 216000,
+    "unit": "tonnes",
+    "note": "World Gold Council: roughly 216,000 t mined through 2024."
+  }
+]
